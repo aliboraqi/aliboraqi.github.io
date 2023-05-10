@@ -287,12 +287,12 @@ left-side in about page .about-container .left-about {
   width: 60%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .customer-service {
+.about-stats .progress-bars .progress-bar .progress-con .progress .customer-support {
   background-color: var(--color-secondary);
-  animation: customer-service 3s linear forwards;
+  animation: customer-support 3s linear forwards;
 }
 
-@keyframes customer-service {
+@keyframes customer-support {
   100% {
     width: 99%;
   }
@@ -304,7 +304,7 @@ left-side in about page .about-container .left-about {
 
 @keyframes communication {
   100% {
-    width: 95%;
+    width: 99%;
   }
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .problem-solving {
@@ -314,7 +314,7 @@ left-side in about page .about-container .left-about {
 
 @keyframes problem-solving {
   100% {
-    width: 85%;
+    width: 98%;
   }
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .attention-to-detail {
@@ -324,27 +324,27 @@ left-side in about page .about-container .left-about {
 
 @keyframes attention-to-detail {
   100% {
-    width: 85%;
+    width: 98%;
   }
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .collaboration {
+.about-stats .progress-bars .progress-bar .progress-con .progress .leadership {
   background-color: var(--color-secondary);
-  animation: collaboration 3s linear forwards;
+  animation: leadership 3s linear forwards;
 }
 
-@keyframes collaboration {
+@keyframes leadership {
   100% {
-    width: 70%;
+    width: 99%;
   }
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .time-management {
+.about-stats .progress-bars .progress-bar .progress-con .progress .microsoft-office {
   background-color: var(--color-secondary);
-  animation: time-management 3s linear forwards;
+  animation: microsoft-office 3s linear forwards;
 }
 
-@keyframes time-management {
+@keyframes microsoft-office {
   100% {
-    width: 75%;
+    width: 95%;
   }
 }
 .stat-title {
