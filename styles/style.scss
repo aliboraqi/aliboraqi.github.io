@@ -456,7 +456,7 @@
 
   
 .port-text {
-padding: 2rem 0;
+padding: 5rem 0;
 text-align: center;
 
 }
@@ -465,8 +465,7 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    margin-top: 3rem;
- 
+    //margin-top: 1rem;
   }
   .portfolios .portfolio-item {
     position: relative;
