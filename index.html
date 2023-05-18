@@ -326,123 +326,42 @@
           <div class="main-title">
             <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
           </div>
-          <div class="contact-content-con">
-            <div class="left-contact">
-              <!-- <h4>Contact</h4> -->
-              <div class="contact-info">
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <span>Location:</span>
-                  </div>
-                  <p>San Francisco, CA United States</p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email:</span>
-                  </div>
-                  <p>
-                    <span>aliboraqi@outlook.com</span>
-                  </p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-user-graduate"></i>
-                    <span>Education:</span>
-                  </div>
-                  <p>
-                    <span>SF State University</span>
-                  </p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-phone-square-alt"></i>
-                    <span>Phone Number:</span>
-                  </div>
-                  <p>
-                    <span>(510) 904 - 2453</span>
-                  </p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-globe-africa"></i>
-                    <span>Languages:</span>
-                  </div>
-                  <p>
-                    <span>English, Arabic</span>
-                  </p>
-                </div>
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xzbqwoye" method="POST">
+              <div class="input-control i-c-2">
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Your Email"
+                />
               </div>
-              <div class="contact-icons">
-                <div class="contact-icon">
-                  <!-- <a href="www.facebook.com" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                  </a> -->
-                  <!-- <a href="#" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a> -->
-                  <!-- <a href="#" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a> -->
-                  <!-- <a href="#" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                  </a> -->
-                </div>
+              <div class="input-control">
+                <input
+                  type="text"
+                  name="subject"
+                  required
+                  placeholder="Enter Subject"
+                />
               </div>
-            </div>
-
-            <div class="right-contact">
-              <form
-                action="https://formsubmit.co/60696db1d8aa5205bda8765caf539b1a"
-                method="POST"
-                class="contact-form"
-              >
-                <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
-                </div>
-                <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
-                </div>
-                <div class="input-control">
-                  <textarea
-                    name=""
-                    id=""
-                    cols="15"
-                    rows="8"
-                    placeholder="Message Here..."
-                  ></textarea>
-                </div>
-
-                <div class="submit-btn">
-                  <button type="submit" class="send-btn">
-                    <span class="btn-text">Send</span>
-                    <span class="btn-icon"
-                      ><i class="fas fa-paper-plane"></i
-                    ></span>
-                  </button>
-                </div>
-
-                <!-- <div class="submit-btn">
-                  <button type="submit" class="main-btn">
-                    <span class="btn-text">Send</span>
-                    <span class="btn-icon"
-                      ><i class="fas fa-paper-plane"></i
-                    ></span>
-                  </button>
-                </div> -->
-
-                <!-- <div class="submit-btn">
-                  <a href="#" class="main-btn">
-                    <span class="btn-text">Submit</span>
-                    <span class="btn-icon"
-                      ><i class="fas fa-download"></i
-                    ></span>
-                  </a>
-                </div> -->
-              </form>
-            </div>
+              <div class="input-control">
+                <textarea
+                  name="message"
+                  id=""
+                  cols="15"
+                  rows="8"
+                  required
+                  placeholder="Message Here..."
+                ></textarea>
+              </div>
+              <button type="submit">Send</button>
+            </form>
           </div>
         </div>
       </section>
@@ -458,9 +377,6 @@
       <div class="control" data-id="portfolio">
         <i class="fas fa-laptop-code"></i>
       </div>
-      <!-- <div class="control" data-id="blogs">
-        <i class="far fa-newspaper"></i>
-      </div> -->
       <div class="control" data-id="contact">
         <i class="fas fa-envelope-open"></i>
       </div>
